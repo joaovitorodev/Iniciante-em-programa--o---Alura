@@ -84,7 +84,7 @@ alert("O saldo da sua conta é: R$" + saldo);
 //5.Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let nome = prompt("Digite o seu nome: ");
 
-alert("Seja bem vindo " + nome);*/
+alert("Seja bem vindo " + nome);
 
 //atividade prática 3
 //1.Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
@@ -113,4 +113,4 @@ let num5 = 0;
 
 while (num5 <= num4) {
     console.log(num5++);
-}
+}*/
