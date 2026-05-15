@@ -1,4 +1,4 @@
-//jogo do número secreto
+/*//jogo do número secreto
 alert("Boas vindas ao jogo do número secreto");
 
 let num = 10;
@@ -84,4 +84,33 @@ alert("O saldo da sua conta é: R$" + saldo);
 //5.Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
 let nome = prompt("Digite o seu nome: ");
 
-alert("Seja bem vindo " + nome);
+alert("Seja bem vindo " + nome);*/
+
+//atividade prática 3
+//1.Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+let num = 1;
+
+while (num <= 10) {
+    console.log(num++);
+}
+
+//2.Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+let num2 = 10;
+while (num2 >= 0) {
+    console.log(num2--);
+}
+
+//3.Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+let num3 = prompt("Digite um número: ");
+
+while (num3 >= 0) {
+    console.log(num3--);555556
+}
+
+//4.Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+let num4 = prompt("Digite um número para a contagem progressiva: ")
+let num5 = 0;
+
+while (num5 <= num4) {
+    console.log(num5++);
+}
