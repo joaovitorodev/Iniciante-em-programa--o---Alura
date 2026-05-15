@@ -27,7 +27,7 @@ while (chute != numeroSecreto) {
 let palavraTentativa = tentativas > 1 ? 'tentativas' : 'tentativa'
 alert(`Isso ai! Você descobriu o número secreto ${numeroSecreto} com ${tentativas} ${palavraTentativa}`);
 
-/*
+
 //atividade prática 1
 //1.Mostre um alerta com a mensagem "Boas vindas ao nosso site!".
 alert("Boas Vindas ao Nosso Site!");
@@ -206,4 +206,3 @@ console.log(num);
 //13.Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
 let num = parseInt(Math.random() * 1000 + 1);
 console.log(num);
-*/
